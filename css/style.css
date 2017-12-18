@@ -21,8 +21,11 @@
     max-width: 1054px;
     margin: 0 auto;
 }
-
-.header-top {
+.header{
+    box-shadow: 0 1px 0 #e6e9ed;
+}
+/* HEADER-TOP__MENU*/
+.header-top__wrapper {
     color: #506a85;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0;
@@ -32,12 +35,12 @@
     padding: 15px 0 11px 0;
 }
 
-.header-top span {
+.header-top__wrapper span {
     font-size: 12px;
     display: inline-block;
 }
 
-.header-top span i {
+.header-top__wrapper span i {
     padding: 0 10px 0 0;
     font-size: 15px;
     display: inline-block;
@@ -46,8 +49,9 @@
 .header-top__rght {
     float: right;
 }
-.header-top__rght span{
-   margin-right: 2px;
+
+.header-top__rght span {
+    margin-right: 2px;
     cursor: pointer;
 
 }
@@ -55,7 +59,87 @@
 .header-top__lft {
     float: left;
 }
-.header-top__lft span{
+
+.header-top__lft span {
     cursor: pointer;
     margin-right: 12px;
+}
+
+/*HEADER-MAIN*/
+.header-main {
+    padding: 30px 10px;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    /*width: 30%;*/
+    margin-right: 44px;
+}
+
+.nav {
+    display: inline-block;
+    font-size: 0;
+    margin-top: 10px;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav li a {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #506a85;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.search-form {
+    float: right;
+    margin-top: 13px;
+
+}
+.search-form button{
+    background: none;
+    border: none;
+}
+/*CARUSEL*/
+.carusel-item{
+    background: url('../img/image-1.png');
+    position: relative;
+}
+.carusel-item:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #5c668b80;
+}
+.carusel-item__content{
+    padding: 300px 0;
+
+}
+h1{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 78px;
+    font-weight: 900;
+    letter-spacing: 4.68px;
+    line-height: 88px;
+    text-transform: uppercase;
+}
+p{
+    color: #a3b1bf;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
