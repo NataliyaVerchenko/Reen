@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Reen</title>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/slick-1.8.0/slick/slick.css">
+    <link rel="stylesheet" href="js/slick-1.8.0/slick/slick-theme.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -71,19 +73,234 @@
     <main class="main">
         <section class="hero">
             <div class="carusel">
-                <div class="carusel-navigation"></div>
-                <div class="carusel-pagination"></div>
+                <!--<div class="carusel-navigation"></div>-->
+                <!--<div class="carusel-pagination"></div>-->
                 <div class="carusel-item">
-                    <div class="container">
-                        <div class="carusel-item__content">
-                        <h1>Made for Designers</h1>
-                        <p>Create your online portfolio in minutes with the professionally and lovingly designed REEN
-                                website template. Customize your site with versatile and easy to use features.</p>
-                        <button class="carusel-item__btn"></button>
-                    </div></div>
+                    <img class="carusel-item__img" src="img/image-4.png" alt="" data-lazy="img/image-4.png">
+
+                    <div class="carusel-item__content">
+                        <h1 class="header-title">Made for Designers</h1>
+                        <p class="header-subtitle">Create your online portfolio in minutes with the professionally and
+                            lovingly designed
+                            REEN
+                            website template. Customize your site with versatile and easy to use features.</p>
+                        <button class="carusel-item__btn btn-cta btn-defalt btn-large">Get started now</button>
+                    </div>
+
+
                 </div>
+                <div class="carusel-item">
+                    <img class="carusel-item__img" src="img/image-2.png" alt="" data-lazy="img/image-2.png">
+
+
+                    <div class="carusel-item__content right-content">
+                        <h1 class="header-title">Fresh and beautiful design</h1>
+                        <p class="header-subtitle">REEN is designed to showcase your talent and put your work in the
+                            forefront.
+                            Professionally use of typography and layout that fits your content.</p>
+                        <button class="carusel-item__btn btn-cta btn-defalt btn-large">Get started now</button>
+                    </div>
+
+
                 </div>
+                <div class="carusel-item">
+                    <img class="carusel-item__img" src="img/image.png" alt="">
+
+
+                    <div class="carusel-item__content">
+                        <h1 class="header-title">Clean and reusable code</h1>
+                        <p>The clean code allows you to easily copy code blocks from content modules and past them
+                            in
+                            different places or layouts.</p>
+                        <button class="carusel-item__btn btn-cta btn-defalt btn-large">Get started now</button>
+                    </div>
+
+
+                </div>
+                <div class="carusel-item">
+                    <img class="carusel-item__img" src="img/image-1.png" alt="">
+
+                    <div class="carusel-item__content">
+                        <h1 class="header-title">Just focus on your creativity</h1>
+                        <p>Take a break from messing around with heavy coding and spend your time brainstorming
+                            ideas
+                            for your next project.</p>
+                        <button class="carusel-item__btn btn-cta btn-defalt btn-large">Get started now</button>
+                    </div>
+
+
+                </div>
+                <div class="carusel-item">
+                    <img class="carusel-item__img" src="img/item-2.png" alt="">
+
+
+                    <div class="carusel-item__content">
+                        <h1 class="header-title">Showcase your content</h1>
+                        <p>Take a break from messing around with heavy coding and spend your time brainstorming
+                            ideas
+                            for your next project.</p>
+                        <button class="carusel-item__btn btn-cta btn-defalt btn-large">Get started now</button>
+                    </div>
+
+
+                </div>
+            </div>
         </section>
+        <section class="who-we-are">
+            <div class="container">
+                <div class="content__top">
+                    <h2 class="title">Beautiful. Clean. Responsive.</h2>
+                    <p class="sub-title">REEN is a high-quality solution for those who want a beautiful website in no
+                        time.
+                        It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it
+                        doesn't
+                        matter. Your content will always looks its absolute best.
+                    </p>
+                </div>
+                <div class="content__bottom">
+                    <div class="content-item">
+                        <h3 class="subtitle-bold"><span class="icon is-main-clr"><i
+                                class="fa fa-thumbs-o-up"></i></span>Passion</h3>
+                        <p class="note">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
+                            Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped
+                            modis
+                            volor.
+                        </p>
+                    </div>
+                    <div class="content-item">
+                        <h3 class="subtitle-bold"><span class="icon is-main-clr"><i class="fa fa-heart-o"></i></span>Creativity
+                        </h3>
+                        <p class="note">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
+                            Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped
+                            modis
+                            volor.
+                        </p>
+                    </div>
+                    <div class="content-item">
+                        <h3 class="subtitle-bold"><span class="icon is-main-clr"><i class="fa fa-star-o"></i></span>Quality
+                        </h3>
+                        <p class="note">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
+                            Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped
+                            modis
+                            volor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="latest-work" class="works">
+            <div class="container">
+                <div class="inner-wrapper">
+                    <div class="content__top">
+                        <h2 class="title">Check out our latest works</h2>
+                        <p class="sub-title">Magnis modipsae que voloratati andigen daepeditem quiate re porem aut
+                            labor.</p>
+                    </div>
+                    <div class="content-center">
+                        <ul class="list-cards">
+                            <li>
+                                <div class="card-img">
+                                    <img src="img/image-work1.png" alt="">
+                                </div>
+
+                                <div class="card-bottom">
+                                    <div class="card-title">SEMF UCUK</div>
+                                    <div class="card-content">CEO &amp; FOUNDER
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-img">
+                                    <img src="img/image-work2.png" alt="">
+                                </div>
+
+                                <div class="card-bottom">
+                                    <div class="card-title">DIK ADALIN</div>
+                                    <div class="card-content">ENGINEERING
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content__bottom__slider">
+                        <div class="content-item_slider">
+                            <div class="slider-works multiple-items">
+                                <div class="list-works">
+                                    <div class="slider-one">
+                                        <img src="img/slide-work1.png" alt="">
+                                    </div>
+                                    <div class="slider-one">
+                                        <img src="img/slide-work2.png" alt="">
+                                    </div>
+                                    <div class="slider-one">
+                                        <img src="img/slide-work4.png" alt="">
+                                    </div>
+                                    <div class="slider-one">
+                                        <img src="img/slide-work3.png" alt="">
+                                    </div>
+                                    <div class="slider-one">
+                                        <img src="img/slide-work3.png" alt="">
+                                    </div>
+                                    <div class="slider-one">
+                                        <img src="img/slide-work3.png" alt="">
+                                    </div>
+                                    <div class="slider-one">
+                                        <img src="img/slide-work3.png" alt="">
+                                    </div>
+                                    <div class="slider-one">
+                                        <img src="img/slide-work3.png" alt="">
+                                    </div>
+                                    <div class="slider-one">
+                                        <img src="img/slide-work3.png" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="work-with-us">
+            <div class="containet">
+                <div class="content__top">
+                    <h2 class="title">Want to work with us?</h2>
+                    <p class="sub-title">Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.
+                        Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+                </div>
+                <div class="content-bootom">
+                    <button class="btn-cta btn-defalt btn-large">Get in touch</button>
+
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container"></div>
+            </div>
+            <div class="footer-bootom">
+                <div class="container">
+                    <div class="content-footer clearfix">
+                        <div class="copiright col-left">
+                            <p>© 2014 REEN. All rights reserved.</p>
+                        </div>
+                        <ul class="col-right nav-footer">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                        <div class="col-custom">
+                            <button class="to-top"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 
     </main>
@@ -94,6 +311,7 @@
 
 
 <script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/slick-1.8.0/slick/slick.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
