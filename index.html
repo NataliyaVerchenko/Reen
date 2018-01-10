@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<span class="scroll_top">
+<div class="scrollup">
     <button class="fa fa-hand-o-up"></button>
-</span>
+</div>
 <div class="header-wrapper">
     <header class="header">
         <div class="header-top__wrapper">
@@ -37,28 +37,33 @@
         <div class="header-main__wrapper">
             <div class="container">
                 <div class="header-main clearfix">
+                    <button type="button" class="navbar-toggle">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="logo" href="index.html"><img src="img/logo.png"></a>
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-item__link" href="url">Home</a>
+                            <a class="nav-item__link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-item__link" href="url">Contact</a>
+                            <a class="nav-item__link" href="#contact-us">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-item__link" href="url">Mega Menu</a>
+                            <a class="nav-item__link" href="#">Mega Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-item__link" href="url">Features</a>
+                            <a class="nav-item__link" href="#">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-item__link" href="url">Pages</a>
+                            <a class="nav-item__link" href="#">Pages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-item__link" href="url">Blog</a>
+                            <a class="nav-item__link" href="#blog">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-item__link" href="url">Portfolio</a>
+                            <a class="nav-item__link" href="#latest-work">Portfolio</a>
                         </li>
                     </ul>
 
@@ -74,7 +79,7 @@
 </div>
 <div class="main-wrapper">
     <main class="main">
-        <section class="hero">
+        <section class="hero section">
             <div class="carusel">
                 <!--<div class="carusel-navigation"></div>-->
                 <!--<div class="carusel-pagination"></div>-->
@@ -152,7 +157,7 @@
                 </div>
             </div>
         </section>
-        <section class="who-we-are">
+        <section class="who-we-are section" id="blog">
             <div class="container">
                 <div class="content__top">
                     <h2 class="title">Beautiful. Clean. Responsive.</h2>
@@ -164,37 +169,57 @@
                     </p>
                 </div>
                 <div class="content__bottom">
-                    <div class="content-item">
-                        <h3 class="subtitle-bold"><span class="icon is-main-clr"><i
-                                class="fa fa-thumbs-o-up"></i></span>Passion</h3>
-                        <p class="note">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
-                            Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped
-                            modis
-                            volor.
-                        </p>
-                    </div>
-                    <div class="content-item">
-                        <h3 class="subtitle-bold"><span class="icon is-main-clr"><i class="fa fa-heart-o"></i></span>Creativity
-                        </h3>
-                        <p class="note">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
-                            Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped
-                            modis
-                            volor.
-                        </p>
-                    </div>
-                    <div class="content-item">
-                        <h3 class="subtitle-bold"><span class="icon is-main-clr"><i class="fa fa-star-o"></i></span>Quality
-                        </h3>
-                        <p class="note">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
-                            Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped
-                            modis
-                            volor.
-                        </p>
+                    <div class="columns-wrapper clearfix">
+                        <div class="column clearfix">
+                            <div class="block-icon">
+                                <span class="icon is-main-clr">
+                                    <i class="fa fa-thumbs-o-up"></i>
+                                </span>
+                            </div>
+                            <div class="block-text-wrapper">
+                                <h3 class="subtitle-bold">Passion</h3>
+                                <p class="content">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
+                                    Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped
+                                    modis
+                                    volor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="block-icon">
+                                <span class="icon is-main-clr">
+                                    <i class="fa fa-heart-o"></i>
+                                </span>
+                            </div>
+                            <div class="block-text-wrapper">
+                                <h3 class="subtitle-bold">Passion</h3>
+                                <p class="content">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
+                                    Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped
+                                    modis
+                                    volor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="block-icon">
+                                <span class="icon is-main-clr">
+                                    <i class="fa fa-star-o"></i>
+                                </span>
+                            </div>
+                            <div class="block-text-wrapper">
+                                <h3 class="subtitle-bold">Passion</h3>
+                                <p class="content">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
+                                    Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped
+                                    modis
+                                    volor.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="latest-work" class="works">
+        <section id="latest-work section" class="works">
             <div class="container">
                 <div class="inner-wrapper">
                     <div class="content__top">
@@ -296,7 +321,7 @@
             </div>
 
         </section>
-        <section class="work-with-us">
+        <section class="work-with-us section" id="contact-us">
             <div class="containet">
                 <div class="content__top">
                     <h2 class="title">Want to work with us?</h2>
