@@ -866,3 +866,17 @@ p {
 .visible{
     opacity:1;
 }
+
+
+/*MEGA MENU*/
+.nav-item .mega-menu{
+    display: none;
+}
+.mega-menu {
+    max-width: 1220px;
+    background: #ccc;
+}
+.mega-menu__col{
+    float: left;
+    width: 25%;
+}
