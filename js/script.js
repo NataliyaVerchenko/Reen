@@ -17,6 +17,9 @@ $(document).ready(function () {
 
 
     });
+    $('.toogle').click(function (){
+        $('#toogleMenu').toggleClass('menu-opened');
+    });
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.scrollup').fadeIn();
