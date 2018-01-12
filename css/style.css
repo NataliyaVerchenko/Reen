@@ -491,9 +491,13 @@ p {
 
     position: relative;
 }
+.footer-copiright{
+    padding: 0 10px;
+}
 
 .col-left {
     float: left;
+    padding-left: 10px;
 }
 
 .col-right {
@@ -1080,6 +1084,13 @@ button.navbar-toggle:hover {
         width: 100%;
         padding: 15px;
         margin: 0 auto;
+    }
+    .header-top{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-top__rght{
+        display: none;
     }
 
 }
